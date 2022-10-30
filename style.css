@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap');
+
+body {
+    background-color: #e5e5e5;
+}
+
+/* .btn {
+    background-color: blueviolet;
+} */
+
+.header {
+    font-family: 'Noto Sans Wancho', sans-serif;
+    
+    zoom: 150%;
+    background-color: #14213d;
+    color: white;
+    
+}
+
+.maincontent {
+    background-color: #e5e5e5;
+    font-family: 'Noto Sans Wancho', sans-serif;
+    height: 80%;
+
+}
+.listdiv{
+    font-family: 'Noto Sans Wancho', sans-serif;
+    background-color: #e5e5e5;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+li:nth-child(odd) {
+    font-family: 'Noto Sans Wancho', sans-serif;
+    color: black;
+    background-color: #ffffff;
+  }
+.delbtn{
+    margin: 1%;
+}
+#asd{
+    
+    margin-top: -2.6%;
+    padding: 2%;
+    
+}

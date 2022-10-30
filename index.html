@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 15</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body style="background-color: #e5e5e5;">
+    <div class="maincontent text-center ">
+        
+        <div class="header">
+            <span class="h1"><h1 class="m-3">TO-DO Web App</h1></span>
+            <span class="TodoInpAndBtn">
+                <!-- <input class="m-3 " placeholder="Enter todo" type="text" id="todo-item"> -->
+                <input type="text" id="todo-item" placeholder="Enter ToDo" class="m-3 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"> 
+                <button class="m-2 mx-auto p-1 btn btn-outline-warning" onclick="addTodo()">Add Item</button>
+                <button class="m-2 mx-auto p-1 btn btn-outline-danger"onclick="deleteAll()">Delete All</button>
+            </span>
+        </div>
+
+        <div class="listdiv p-1">
+            <h2 id="asd">TO-DO's List <i class="fa-regular fa-hand-point-down"></i></h2>
+            <ol id="list">
+                
+            </ol>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
